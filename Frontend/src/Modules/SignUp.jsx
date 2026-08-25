@@ -1,4 +1,6 @@
 import style from '../css/signUp.module.css'
+import googleLogo from '../assets/google.png'
+import facebookLogo from '../assets/facebook.png'
 
 export default function SignUp(){
     return(
@@ -26,12 +28,12 @@ export default function SignUp(){
                         Password
                         <input type="password" placeholder="Enter your password" />
                     </label>
-                    <button type="submit" className={style.primaryButton}>Sign in</button>
+                    <button type="submit" className={style.primaryButton}>Sign Up</button>
                 </div>
 
                 <div className={style.footerRow}>
                     <span>Have an account?</span>
-                    <button type="button" className={style.secondaryButton}>Sign Up</button>
+                    <button type="button" className={style.secondaryButton}>Sign In</button>
                 </div>
             </form>
         </div>
