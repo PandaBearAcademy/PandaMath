@@ -1,4 +1,5 @@
 import style from '../css/academy.module.css'
+import { Link } from 'react-router-dom'
 
 export default function Academy(){
     return(
@@ -12,16 +13,7 @@ export default function Academy(){
                 </header>
 
                 <div className={style.gradeGrid}>
-                    <button className={style.gradeButton}>Grade 3</button>
-                    <button className={style.gradeButton}>Grade 4</button>
-                    <button className={style.gradeButton}>Grade 5</button>
-                    <button className={style.gradeButton}>Grade 6</button>
-                    <button className={style.gradeButton}>Grade 7</button>
-                    <button className={style.gradeButton}>Grade 8</button>
-                    <button className={style.gradeButton}>Grade 9</button>
-                    <button className={style.gradeButton}>Grade 10</button>
-                    <button className={style.gradeButton}>Grade 11</button>
-                    <button className={style.gradeButton}>Grade 12</button>
+                    <Link to="/grade-3" className={style.gradeButton}>Panda Bear Academy</Link>
                 </div>
             </div>
         </section>
